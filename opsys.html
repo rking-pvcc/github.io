@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- NAME Robert King
+    PROG PURPOSE: HTML MidTerm
+-->
+<html lang="en">
+<head>
+    <title>Chapter 3 Terminology Table</title>
+</head>
+<body style="color:#fa2d12; background-color: #000000; font-family: calibri;"></body>
+<h1>Operating Systems Terminology</h1>
+
+<table border="1" style="text-align:center;" width="560" >
+        <tr style="font-weight:bold; font-size: 120%;">
+            <td>Terms</td>
+            <td>Defintions</td>
+        </tr>
+        <tr>
+            <td>Operating System</td>
+            <td>The software that controls the overall operation of a computer which provides the means by which a user can store and retrieve files, the interface by which a user can request the execution of programs, and the environment necessary to execute the programs requested (p. 147).</td>
+        </tr>
+        <tr>
+            <td>Job Queue</td>
+            <td>Jobs residing in mass storage in batch processing systems must wait for execution in the job queue which is a storage organization in which objects are removed from the queue in the order in which they arrived (p. 151).</td>
+        </tr>
+        <tr>
+            <td>FIFO</td>
+            <td>FIFO stands for first-in, first-out so the objects/jobs are removed from the job queue in the order in which they arrived (p. 151).</td>
+        </tr>
+        <tr>
+            <td>Interactive Processing</td>
+            <td>To accommodate the needs of having interaction with the jobs once they’re submitted to the operator, new operating systems were developed that allowed a program being executed to carry on a dialogue with the user through remote terminals (p. 152).</td>
+        </tr>
+        <tr>
+            <td>Time-Sharing</td>
+            <td>To solve the problem of the operating system only executing one job at a time, they designed operating systems that provided service to multiple users at the same time (p. 153).</td>
+        </tr>
+        <tr>
+            <td>Multiprogramming</td>
+            <td>One means of implementing time-sharing is to apply multiprogramming which is when time is divided into intervals and the execution of each job is restricted to only one interval at a time (p. 153).</td>
+        </tr>
+        <tr>
+            <td>Application Software</td>
+            <td>Consists of the programs for performing tasks particular to the machine’s utilization (examples: spreadsheets, database systems, desktop publishing systems, accounting systems, program development software, & games) (p. 156).</td>
+        </tr>
+        <tr>
+            <td>System Software</td>
+            <td>Performs those tasks that are common to computer systems in general and provides the infrastructure that the application software requires, in much the same manner as a nation’s infrastructure provides the foundation on which its citizens rely for their individual lifestyles (p. 156).</td>
+        </tr>
+        <tr>
+            <td>Utility Software</td>
+            <td>The majority of an installation's utility software consists of programs for performing activities that are fundamental to computer installation but not included in the operating system as well as software units that extend (or customize) the capabilities of the operating system. Other instances of utility software include software to compress and decompress data, software for playing multimedia content, and software for handling network communication (p. 156)</td>
+        </tr>
+        <tr>
+            <td>Graphical User Interface (GUI)</td>
+            <td>Modern systems communicate with users by which objects to be manipulated are represented pictorially on the display as icons (p. 157).</td>
+        </tr>
+        <tr>
+            <td>Shell</td>
+            <td>Shells are older user interfaces which communicated with users through textual messages using a keyboard and monitor screen (p. 157). </td>
+        </tr>
+        <tr>
+            <td>Kernel</td>
+            <td>The internal part of an operating system, contains those software components that perform the very basic functions required by the computer installation (p. 158).</td>
+        </tr>
+        <tr>
+            <td>Device Driver</td>
+            <td>The software units that communicate with the controllers (or at times, directly with peripheral devices) to carry out operations on the peripheral devices attached to the machine and is uniquely designed for its particular type of device and translates generic requests into the more technical steps required by the device assigned to that driver (p. 159).</td>
+        </tr>
+        <tr>
+            <td>File Manager</td>
+            <td>One software component of a kernel whose job is to coordinate the use of the machine's mass storage facilities. More precisely, maintains records of all the files stored in mass storage, including where each file is located, which users are allowed to access the various files, and which portions of mass storage are available for new files or extensions to existing files (p. 158).</td>
+        </tr>
+        <tr>
+            <td>Memory Manager</td>
+            <td>Another software component of a kernel which is charged with the task of coordinating the machine's use of main memory as well as paging if the computer needs more memory (p. 160).</td>
+        </tr>
+        <tr>
+            <td>Virtual Memory</td>
+            <td>If the computer needs more memory, the memory manager reserves 4GB on a magnetic disk and records bit patterns that would be stored in main memory if it had a capacity of 8GB, which is divided into uniformly sized units called pages, and then the memory manager shuffles the pages back and forth between the main memory and mass storage so the computer is able to function as though it actually had 8GB even though it has 4GB. The fictional memory space created by paging is the virtual memory (p. 160).</td>
+        </tr>
+        <tr>
+            <td>Boot Strapping</td>
+            <td>Boot Strapping (or booting) is the procedure that gets the operating system started by transferring the operating system from mass storage into main memory (p. 161).</td>
+        </tr>
+        <tr>
+            <td>ROM</td>
+            <td>To resolve the dilemma of the computer's volatile memory erasing each time the machine is turned off, a small portion of a computer's main memory where the CPU expects to find its initial program is constructed from special nonvolatile memory cells which is known as read-only memory (ROM) because its contents can be read but not altered (p. 161).</td>
+        </tr>
+        <tr>
+            <td>Deadlock</td>
+            <td>Another problem that can arise during resource allocation which is the condition in which two or more processes are blocked from progressing because each is waiting for a resource that is allocated to another (p. 169).</td>
+        </tr>
+        <tr>
+            <td>Spooling</td>
+            <td>The operating system would make the nonsharable resource appear shareable by creating the illusion of more than one printer by holding data for output at a later but more convenient time (p. 170).</td>
+        </tr>
+        <tr>
+            <td>Super User (or Administrator)</td>
+            <td>Accounts are established by a person known as the super user (or administrator) which gains highly privileged access to the operating system by identifying him- or herself as the administrator (usually by name and password) during the login procedure and can alter settings within the operating system, modify critical software packages, adjust the privileges granted to other users, and perform a variety of other maintenance activities that are denied normal users (p. 172).</td>
+        </tr>
+        <tr>
+            <td>Multi-Factor Authentication</td>
+            <td>One solution to the pervasive problem of humans using weak password to secure their computer accounts is to require more than one piece of evidence to gain access. A second authentication factor might depend on something that the user has, such as an ATM card, a specialized security token, or a smartphone with a particular phone number and a third set of authentication factors might depend on something related to who the user is (p. 175).</td>
+        </tr>
+        <tr>
+            <td colspan="4">Brookshear, J. Glenn, and Dennis Brylow. “Operating Systems.” Computer Science: An Overview, 13th ed., Pearson, NY, NY, 2020, pp. 148–175.</td>
+        </tr>
+</table>
+</body>
+</html>
